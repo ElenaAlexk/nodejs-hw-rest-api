@@ -5,7 +5,7 @@ const { schemas } = require("../../models/user");
 
 const router = express.Router();
 
-const ctrl = require("../../controllers/auth/register");
+const ctrl = require("../../controllers/auth");
 const { ctrlWrapper } = require("../../helpers");
 
 router.post(
